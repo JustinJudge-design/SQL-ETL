@@ -1,6 +1,5 @@
 -- psql commands 1:\i 'C:/path/to/etl_pipeline.sql' **Please note: replace \i 'C:/path/to/etl_pipeline.sql' with path to ETL pipeline script***
---psql command: 2: \copy staging_onlinestore(item_id, item_name, gender, clothing_type, brand, price, number_sold, remaining_stock)
-FROM 'C:/Users/Justi/Downloads/clothing_tableETL.csv' WITH (FORMAT csv, HEADER true);
+--psql command: 2: \copy staging_onlinestore(item_id, item_name, gender, clothing_type, brand, price, number_sold, remaining_stock) FROM 'C:/Users/Justi/Downloads/clothing_tableETL.csv' WITH (FORMAT csv, HEADER true);
 --***NOTE: REPLACE YOUR TABLE AND COLUMN NAMES AS NEEDED ALSO REPLACE: 'C:/path/to/clothing_tableETL.csv' with path to .CSV Spreadsheet
 -- STEP 1: Create the staging table
 CREATE TABLE IF NOT EXISTS staging_onlinestore (
