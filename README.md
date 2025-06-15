@@ -1,5 +1,6 @@
 # SQL-ETL
 A fully terminal-based ETL pipeline for a fictional online clothing store using PostgreSQL and SQL only. No GUI tools — just psql, CSVs, and clean code.
+
 # 🧵 SQL-Only ETL Pipeline for Online Clothing Store
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14+-blue)
